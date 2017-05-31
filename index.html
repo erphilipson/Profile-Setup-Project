@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <section>
+      <form action="" method="POST">
+        <h2>Sign up</h2>
+
+        <fieldset>
+          <div class="user-type">
+            <div class="option">
+              <input type="radio" name="user-type" id="option1" value="admin">
+              <label for="option1">admin</labeL>
+            </div>
+
+            <div class="option">
+              <input type="radio" name="user-type" id="option2" value="personal" checked="checked">
+              <label for="option2">personal</label>
+            </div>
+
+            <div class="option">
+              <input type="radio" name="user-type" id="option3" value="guest">
+              <label for="option3">guest</label>
+            </div>
+
+          </div>
+
+          <div class="text-input">
+            <div class="box1">
+              <label for="name">name</label>
+              <input type="text" name="name" id="name">
+            </div>
+
+            <div class="box2">
+              <label for="email">email address</label>
+              <input type="email" name="email" id="email">
+            </div>
+
+            <div class="box3">
+              <label for="password">password</label>
+              <input type="password" name="password" id="password">
+            </div>
+
+              <div class="box4">
+              <label for="confirm-password">confirm password</label>
+              <input type="password" name="confirm-password" id="confirm-password">
+            </div>
+          </div>
+
+          <div class="picture-submit">
+            <label for="picture">profile picture</label>
+            <br>
+            <input type="file" name="picture" id="picture">
+
+            <button type="submit">sign up</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
